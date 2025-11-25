@@ -57,5 +57,6 @@ export default defineNuxtConfig({
     'nuxt-lucide-icons',
     'motion-v/nuxt',
     '@nuxtjs/seo',
+    'v-gsap-nuxt',
   ],
 })
