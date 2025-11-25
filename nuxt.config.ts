@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    baseUrl: 'https://aqarygo.com',
+    baseUrl: 'https://localhost:3000',
     locales: [
       { code: 'en', language: 'en-US', file: 'en.json', name: 'English', dir: 'ltr' },
       { code: 'ar', language: 'ar-SA', file: 'ar.json', name: 'العربية', dir: 'rtl' }
@@ -44,6 +44,10 @@ export default defineNuxtConfig({
        * @default "@/components/ui"
        */
       componentDir: '@/components/ui'
+    },
+
+    seo: {
+      automaticDefaults: false
     },
 
   
